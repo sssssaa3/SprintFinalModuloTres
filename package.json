@@ -1,0 +1,16 @@
+{
+  "name": "abpro-m3-ae2",
+  "version": "1.0.0",
+  "description": "Integrantes:\r - Sebastián Salas\r - Carmen Castillo\r - Stephanie Lobos \r - Silvia Cabello",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass --watch sass:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.75.0"
+  }
+}

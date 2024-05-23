@@ -1,0 +1,6 @@
+# Equipo 
+
+Integrantes:
+- Sebastián Salas
+
+

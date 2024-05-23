@@ -1,0 +1,51 @@
+@use "./variables" as *;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar-brand,
+.footer-brand {
+  font-family: "Holtwood One SC", serif;
+  font-size: 22px;
+}
+
+.card-img-top {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.card-product {
+  width: 152px !important;
+  margin-inline: auto;
+}
+
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.bi {
+  color: $secondary;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.carousel-indicators {
+  bottom: -2.5rem;
+}
+
+.badge {
+  width: 17rem !important;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper-social-icons {
+    position: absolute;
+  }
+  form {
+    min-width: 600px;
+  }
+}
